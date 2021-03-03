@@ -1,22 +1,21 @@
+import React, {useState}from "react"
 import logo from './logo.svg';
-import './App.css';
+import "./App.css"
 
 function App() {
+  const [compliment, setCompliment] = useState("Hello")
+  const [hexCode, setHexCode] = useState("#FFF")
+
+
   return (
-    <div className="App">
+    <div className="App" background-color={hexCode}>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className="centered">
+          <p>
+            {compliment}
+          </p>
+          <button className="button">Thanks!</button> <button className="button">MEH!</button>
+        </div>
       </header>
     </div>
   );
