@@ -20,8 +20,8 @@ function App() {
   }
 
   return (
-    <div className="App" background-color={color}>
-      <header className="App-header">
+    <div className="App">
+      <header className="App-header" style={{backgroundColor: {color}}}>
         <div className="centered">
           <p>
             {compliment}
