@@ -37,7 +37,10 @@ function App() {
           <p>
             {item}
           </p>
-          <button className="button" onClick={giveCompliment}>Thanks!</button> <button className="button">MEH!</button>
+          <div>
+            <button className="button" onClick={giveCompliment}>Thanks!</button>
+            <button className="button">MEH!</button>
+          </div>
         </div>
       </header>
     </div>

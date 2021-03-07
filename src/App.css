@@ -2,19 +2,26 @@
   text-align: center;
 }
 
-.centered {
+.compliment {
   position: fixed;
   top: 50%;
   left: 50%;
 }
 
+.buttonArea {
+  position: relative
+}
+
 .button {
-  background-color: Transparent;
-  background-repeat:no-repeat;
-  border: 5px solid #f5f5f5;
-  font-size: 20px;
+  background-color: transparent;
+  border: 0.2em solid #f5f5f5;
+  padding: 0.7em;
+  display: inline-block;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
   color: whitesmoke;
-  width: 100%;
+  margin: 15px;
+  box-sizing: border-box;
 }
 
 .App-logo {
